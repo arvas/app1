@@ -144,8 +144,9 @@ GEM
       thread_safe (~> 0.1)
     tzinfo-data (1.2018.3)
       tzinfo (>= 1.0.0)
-    uglifier (4.1.8)
-      execjs (>= 0.3.0, < 3)
+    uglifier (2.1.1)
+      execjs (>= 0.3.0)
+      multi_json (~> 1.0, >= 1.0.2)
     websocket-driver (0.6.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.3)
@@ -165,7 +166,7 @@ DEPENDENCIES
   sqlite3
   turbolinks
   tzinfo-data
-  uglifier
+  uglifier (= 2.1.1)
 
 RUBY VERSION
    ruby 2.4.3p205
